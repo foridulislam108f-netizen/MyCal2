@@ -19,7 +19,7 @@ jobs:
         with:
           gradle-version: 8.9
       - name: Unzip project
-        run: unzip -q MyCalApp.zip
+        run: unzip -q MyCal2.zip
       - name: Build
         working-directory: MyCalApp
         run: gradle assembleDebug --no-daemon
